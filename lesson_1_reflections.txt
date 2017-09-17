@@ -1,0 +1,44 @@
+Q. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A. The diff command enables us to see the difference between two files. It is particiulrly useful when looking at two differnt versions of the same file as it is reduces the number of lines needed to be checked and can reduce time spent lookng for errors from hours to minutes.
+
+Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A. If you break your code at some stage and can find a version which is not broken...
+
+Q. How often should you make a commit?
+
+A. After every logical chnage in code.
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A. 1. Cons: subject to user error, might save when code is wrong. Pro: you know when and where you saved. 
+   2. Cons: Automatic save may save when code is not compilable. Pros: Get muliple versions of files.
+
+Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A. Saviing multiple files in one commit enable us to see when the files were changed together. Google docs does not support this feature as it only cares about the single files.
+
+# git config --global color.ui auto used for adding colour to the git diff output.
+
+Q. How can you use the commands git log and git diff to view the history of files?
+
+A. git log dives a list of the commits made to a reposistory throughout its life span. Each commit has a unique id, date and commit message. git diff gives the difference between two commits; git diff ID_1 ID_2.
+
+Q. How might using version control make you more confident to make changes that could break something?
+
+A. Changing the code can cause the pipeline to break but it can be rectified much easier with checking out previous commits where the bug didn't exist.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+A. Version vontrol and colaborative work.
+
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS! 
