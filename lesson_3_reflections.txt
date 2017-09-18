@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can see the difference between your own master branch and the last online commit, and can see the difference between the newest remote commit and yours.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
